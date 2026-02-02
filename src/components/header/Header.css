@@ -12,7 +12,7 @@
     width: 100%;
     padding: 15px;
   
-    background-color: #333333;
+    background-color: #010202;
   
     font-size: 16px;
   }
@@ -29,7 +29,7 @@
   }
   
   .logo:hover {
-    color: #3c5057;
+    color: #010202;
   }
   
   .nav_items {
@@ -60,8 +60,8 @@
     border-radius: 50px;
     margin-left: 20px;
   
-    color: #FFFFFF;
-    background-color: #779eac;
+    color: #000000;
+    background-color: #ffffff;
   
     font-weight: 600;
     text-decoration: none;
