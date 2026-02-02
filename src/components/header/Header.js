@@ -3,7 +3,7 @@ import './Header.css'
 export default function Header() {
   return (
     <nav class="header">
-      <div class="logo">A</div>
+      <div class="logo">Teoxon</div>
       <div class="nav_items">
         <div class="nav_item"><a>Home</a></div>
         <div class="nav_item"><a href="https://www.google.com" target="_blank">Google</a></div>
