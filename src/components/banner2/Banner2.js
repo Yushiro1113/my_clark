@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './Banner.css'
+import './Banner2.css'
 import bannerImages from './data/data';
 
 export default function Banner2() {

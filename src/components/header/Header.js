@@ -1,17 +1,25 @@
+import { Link } from 'react-router-dom';
+
 import './Header.css'
 
 export default function Header() {
-  return (
-    <nav class="header">
-      <div class="logo">Teoxon</div>
-      <div class="nav_items">
-        <div class="nav_item"><a>Home</a></div>
-        <div class="nav_item"><a href="https://www.google.com" target="_blank">Google</a></div>
-        <div class="nav_item"><a href="https://www.youtube.com" target="_blank">Youtube</a></div>
-        <div class="nav_item"><a href="https://www.instagram.com" target="_blank">Instagram</a></div>
-        <div class="nav_item"><a href="https://www.facebook.com" target="_blank">facebook</a></div>
+  return ( 
+    <nav className="header">
+      <div className="logo">blue</div> 
+
+      <div className="nav_items">
+        <div className="nav_item">
+         <Link to="/">Home</Link>
+         </div>
+        <div className="nav_item"><a href="/Services" target="_blank" rel="noreferrer">Services</a></div>
+        <div className="nav_item"><a href="/Product" target="_blank" rel="noreferrer">Product</a></div>
+        <div className="nav_item"><a href="/Background" target="_blank" rel="noreferrer">Background</a></div>
+        <div className="nav_item"><a href="/Contact" target="_blank" rel="noreferrer">Contact</a>
+         </div>
       </div>
-      <div class="login_button"><a>Login</a></div>
+      <div className="login_button">
+       <Link to="/login">Login</Link>
+     </div>
     </nav>
   );
 };
