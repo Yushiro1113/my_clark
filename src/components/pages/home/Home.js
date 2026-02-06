@@ -1,4 +1,4 @@
-import Banner2 from '../../components/banner2/Banner2';
+import Banner2 from "../../banner2/Banner2";
 
 export default function Home() {
   return (

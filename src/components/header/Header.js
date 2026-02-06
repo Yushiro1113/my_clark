@@ -5,7 +5,7 @@ import './Header.css'
 export default function Header() {
   return ( 
     <nav className="header">
-      <div className="logo">blue</div> 
+      <div className="logo">Teoxon</div> 
 
       <div className="nav_items">
         <div className="nav_item">

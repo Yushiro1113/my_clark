@@ -1,0 +1,97 @@
+body {
+  background: #ffffff; 
+  font-family: Raleway, sans-serif;
+  color: #fdfdfd;
+}
+
+.register {
+  margin: 20px auto;
+  padding: 60px 100px;
+  max-width: 560px;
+  border-radius: 50px;
+  background: #6c757d;
+  box-shadow: 1px 1px 1px #212529;
+  border: 3px solid #495057;
+}
+  .register input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 14px 12px;
+    font-size: 16px;
+    border-radius: 2px; 
+    font-family: Raleway, sans-serif;
+  }
+
+.register input[type=text],
+.register input[type=password] {
+  border: 2px solid #000000;
+  transition: .2s;
+}
+
+.register input[type=text]:hover {
+  border-color: #000000;
+  outline: none;
+  transition: all .2s ease-in-out;
+} 
+
+.register input[type=submit] {
+  border: none;
+  background: #ffffff;
+  color: #000000;
+  font-weight: bold;  
+  transition: 0.2s;
+  margin: 20px 0px;
+}
+
+.register input[type=submit]:hover {
+  background: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+  .register h2 {
+    margin: 20px 0 0; 
+    color: #dbdbdb;
+    font-size: 28px;
+  }
+
+.register p {
+  margin-bottom: 40px;
+  color: #ffffff
+}
+
+.links {
+  display: table;
+  width: 100%;  
+  box-sizing: border-box;
+  border-top: 1px solid #ffffff;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: table-cell;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+  .register h2,
+  .register p,
+  .register a {
+    text-align: center;    
+  }
+
+.register a {
+  text-decoration: none;  
+  font-size: .8em;
+  color: #000000
+}
+
+.register a:visited {
+  color: inherit;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
