@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <header className="header">
-      <div className="logo">Teoxon</div>
+      <div className="logo">Clothing ATBP</div>
 
       <nav className="nav_items">
         <div className="nav_item">

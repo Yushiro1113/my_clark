@@ -6,6 +6,6 @@ const planets = {
   mercury: mercury,
   venus: venus,
   earth: earth,
-}
+};
 
 export default planets;

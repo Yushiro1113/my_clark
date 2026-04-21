@@ -1,3 +1,4 @@
+
 import './App.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -5,6 +6,8 @@ import Header from './components/header/Header';
 import Home from './components/pages/home/Home';
 import Login from './components/pages/login/Login';
 import Register from './components/pages/register/Register';
+import Footer from './components/footer/Footer';
+
 
 
 export default function App() {
@@ -18,6 +21,7 @@ export default function App() {
           <Route path='/register' element={<Register />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
