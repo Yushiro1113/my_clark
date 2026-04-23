@@ -12,15 +12,17 @@ import Footer from './components/footer/Footer';
 
 export default function App() {
   return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/register' element={<Register />} />
-        </Routes>
-      </Router>
+    <div className="app-container">
+      <div className="App">
+        <Router>
+          <Header />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/register' element={<Register />} />
+          </Routes>
+        </Router>
+      </div>
       <Footer />
     </div>
   );
