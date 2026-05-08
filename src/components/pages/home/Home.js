@@ -1,5 +1,5 @@
 import Banner2 from "../../banner2/Banner2";
-import SalaryCalculator from "../../salaryCalculator/SalaryCalculator";
+import Calculator from "../../calculator/Calculator";
 import Planets from "../../planets/Planets";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Banner2 />
       <Planets />
-      <SalaryCalculator />
+      <Calculator />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SalaryCalculator.css";
+import "./Calculator.css";
 
 const SalaryCalculator = () => {
   const [price, setPrice] = useState("");
