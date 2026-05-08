@@ -33,31 +33,9 @@
   border-radius: 1000px;
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   /* animation: planetEntrance 30s; */
-  animation: planetEntrance 50s linear infinite;
 }
 
-@keyframes planetEntrance {
-  0% {
-    opacity: 0;
-  }
 
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes planetEntrance {
-  0% { -webkit-transform: rotate(0deg);
-       opacity: 0;
-     }
-  100% { -webkit-transform: rotate(360deg); 
-          opacity: 1;}
-  }
-
-  @keyframes planetEntrance {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
 
 
 
